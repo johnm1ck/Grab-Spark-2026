@@ -18,13 +18,6 @@ npm run build
 npm run preview
 ```
 
-On this workstation, if the system Node installation reports an OpenSSL configuration error, use the existing `webdev` conda environment:
-
-```sh
-conda activate webdev
-npm run dev
-```
-
 ```sh
 npx playwright install firefox
 npm run build
